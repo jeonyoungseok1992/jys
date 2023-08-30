@@ -12,13 +12,13 @@ public class Main {
 		fr[cnt++] = new CompFriend("PARK", "Phone", "010-333-555");
 		
 		
-		for(int i = 0; i < cnt; i++) {		
-			fr[i].showInfo();
-			
-			
-			System.out.println();
-			
-		}
+//		for(int i = 0; i < cnt; i++) {		
+//			fr[i].showInfo();
+//			
+//			
+//			System.out.println();
+//			
+//		}
 		((UnivFriend)fr[1]).seeinfo();
 		fr[0].showInfo();
 
