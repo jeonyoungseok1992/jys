@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="testProject">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../../dev/eclipse/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="17"/>
+    <property name="source" value="17"/>
+    <path id="testProject.classpath">
+        <pathelement location="bin"/>
+    </path>
+    <path id="run.Client0822.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.CurrentThreadName.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Exception.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Exception22222.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.FoodMain.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.GeneMain.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.LinkedListMain.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.ListMain.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.LocalComputerIp.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.MapMain.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Run (1).classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Run (2).classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Run (3).classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Run (4).classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Run (5).classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Run.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Run2.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.server0822.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.ServerEx.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.SetMain.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Stream.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.TCPChatClient.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.TCPChatServer.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.TCP_Client.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.TCP_Server.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.TCP_Server2.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.Test0822.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.TestMain1.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.UDP_ClientA.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.UDP_ClientB.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.WriterAndReader.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <path id="run.WriteToFile.classpath">
+        <path refid="testProject.classpath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="0814">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="0815member">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="0816">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="0817">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="0818">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="japangi">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="japangi2">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="phone">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="0821">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="0822Test">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="chat0822">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <src path="0814"/>
+            <src path="0815member"/>
+            <src path="0816"/>
+            <src path="0817"/>
+            <src path="0818"/>
+            <src path="japangi"/>
+            <src path="japangi2"/>
+            <src path="phone"/>
+            <src path="0821"/>
+            <src path="0822Test"/>
+            <src path="chat0822"/>
+            <classpath refid="testProject.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Client0822">
+        <java classname="testProject22.Client0822" failonerror="true" fork="yes">
+            <classpath refid="run.Client0822.classpath"/>
+        </java>
+    </target>
+    <target name="CurrentThreadName">
+        <java classname="thread.CurrentThreadName" failonerror="true" fork="yes">
+            <classpath refid="run.CurrentThreadName.classpath"/>
+        </java>
+    </target>
+    <target name="Exception">
+        <java classname="exception.Exception" failonerror="true" fork="yes">
+            <classpath refid="run.Exception.classpath"/>
+        </java>
+    </target>
+    <target name="Exception22222">
+        <java classname="exception.Exception22222" failonerror="true" fork="yes">
+            <classpath refid="run.Exception22222.classpath"/>
+        </java>
+    </target>
+    <target name="FoodMain">
+        <java classname="testProject22.FoodMain" failonerror="true" fork="yes">
+            <classpath refid="run.FoodMain.classpath"/>
+        </java>
+    </target>
+    <target name="GeneMain">
+        <java classname="generic.GeneMain" failonerror="true" fork="yes">
+            <classpath refid="run.GeneMain.classpath"/>
+        </java>
+    </target>
+    <target name="LinkedListMain">
+        <java classname="collection.LinkedListMain" failonerror="true" fork="yes">
+            <classpath refid="run.LinkedListMain.classpath"/>
+        </java>
+    </target>
+    <target name="ListMain">
+        <java classname="collection.ListMain" failonerror="true" fork="yes">
+            <classpath refid="run.ListMain.classpath"/>
+        </java>
+    </target>
+    <target name="LocalComputerIp">
+        <java classname="TCP_Test.LocalComputerIp" failonerror="true" fork="yes">
+            <classpath refid="run.LocalComputerIp.classpath"/>
+        </java>
+    </target>
+    <target name="MapMain">
+        <java classname="collection.MapMain" failonerror="true" fork="yes">
+            <classpath refid="run.MapMain.classpath"/>
+        </java>
+    </target>
+    <target name="Run (1)">
+        <java classname="testAnswer.Run" failonerror="true" fork="yes">
+            <classpath refid="run.Run (1).classpath"/>
+        </java>
+    </target>
+    <target name="Run (2)">
+        <java classname="test.Run" failonerror="true" fork="yes">
+            <classpath refid="run.Run (2).classpath"/>
+        </java>
+    </target>
+    <target name="Run (3)">
+        <java classname="japangi.Run" failonerror="true" fork="yes">
+            <classpath refid="run.Run (3).classpath"/>
+        </java>
+    </target>
+    <target name="Run (4)">
+        <java classname="Run" failonerror="true" fork="yes">
+            <classpath refid="run.Run (4).classpath"/>
+        </java>
+    </target>
+    <target name="Run (5)">
+        <java classname="japangi2.Run" failonerror="true" fork="yes">
+            <classpath refid="run.Run (5).classpath"/>
+        </java>
+    </target>
+    <target name="Run">
+        <java classname="testProject22.Run" failonerror="true" fork="yes">
+            <classpath refid="run.Run.classpath"/>
+        </java>
+    </target>
+    <target name="Run2">
+        <java classname="test.Run2" failonerror="true" fork="yes">
+            <classpath refid="run.Run2.classpath"/>
+        </java>
+    </target>
+    <target name="server0822">
+        <java classname="testProject22.server0822" failonerror="true" fork="yes">
+            <classpath refid="run.server0822.classpath"/>
+        </java>
+    </target>
+    <target name="ServerEx">
+        <java classname="chat0822.ServerEx" failonerror="true" fork="yes">
+            <classpath refid="run.ServerEx.classpath"/>
+        </java>
+    </target>
+    <target name="SetMain">
+        <java classname="collection.SetMain" failonerror="true" fork="yes">
+            <classpath refid="run.SetMain.classpath"/>
+        </java>
+    </target>
+    <target name="Stream">
+        <java classname="inout.Stream" failonerror="true" fork="yes">
+            <classpath refid="run.Stream.classpath"/>
+        </java>
+    </target>
+    <target name="TCPChatClient">
+        <java classname="TCP_Test.TCPChatClient" failonerror="true" fork="yes">
+            <classpath refid="run.TCPChatClient.classpath"/>
+        </java>
+    </target>
+    <target name="TCPChatServer">
+        <java classname="TCP_Test.TCPChatServer" failonerror="true" fork="yes">
+            <classpath refid="run.TCPChatServer.classpath"/>
+        </java>
+    </target>
+    <target name="TCP_Client">
+        <java classname="TCP_Test.TCP_Client" failonerror="true" fork="yes">
+            <classpath refid="run.TCP_Client.classpath"/>
+        </java>
+    </target>
+    <target name="TCP_Server">
+        <java classname="TCP_Test.TCP_Server" failonerror="true" fork="yes">
+            <classpath refid="run.TCP_Server.classpath"/>
+        </java>
+    </target>
+    <target name="TCP_Server2">
+        <java classname="TCP_Test.TCP_Server2" failonerror="true" fork="yes">
+            <classpath refid="run.TCP_Server2.classpath"/>
+        </java>
+    </target>
+    <target name="Test0822">
+        <java classname="testProject22.Test0822" failonerror="true" fork="yes">
+            <classpath refid="run.Test0822.classpath"/>
+        </java>
+    </target>
+    <target name="TestMain1">
+        <java classname="test.TestMain1" failonerror="true" fork="yes">
+            <classpath refid="run.TestMain1.classpath"/>
+        </java>
+    </target>
+    <target name="UDP_ClientA">
+        <java classname="TCP_Test.UDP_ClientA" failonerror="true" fork="yes">
+            <classpath refid="run.UDP_ClientA.classpath"/>
+        </java>
+    </target>
+    <target name="UDP_ClientB">
+        <java classname="TCP_Test.UDP_ClientB" failonerror="true" fork="yes">
+            <classpath refid="run.UDP_ClientB.classpath"/>
+        </java>
+    </target>
+    <target name="WriterAndReader">
+        <java classname="stream.WriterAndReader" failonerror="true" fork="yes">
+            <classpath refid="run.WriterAndReader.classpath"/>
+        </java>
+    </target>
+    <target name="WriteToFile">
+        <java classname="stream.WriteToFile" failonerror="true" fork="yes">
+            <classpath refid="run.WriteToFile.classpath"/>
+        </java>
+    </target>
+</project>

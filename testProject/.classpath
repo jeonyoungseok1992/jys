@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="0814"/>
+	<classpathentry kind="src" path="0815member"/>
+	<classpathentry kind="src" path="0816"/>
+	<classpathentry kind="src" path="0817"/>
+	<classpathentry kind="src" path="0818"/>
+	<classpathentry kind="src" path="japangi"/>
+	<classpathentry kind="src" path="coupang"/>
+	<classpathentry kind="src" path="phone"/>
+	<classpathentry kind="src" path="0821"/>
+	<classpathentry kind="src" path="0822Test"/>
+	<classpathentry kind="src" path="chat0822"/>
+	<classpathentry kind="src" path="0823"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
